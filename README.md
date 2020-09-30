@@ -14,6 +14,6 @@ Use this data pipeline to grab the data from car dealers. Do ELT on this data an
 *	Used Amazon Redshift table as Data warehouse, which contain pure data for data analysis and data reporting.
 
 ### Scenarios
-* DAG start at 7AM daily.
+* Airflow DAG start at 7AM daily.
 * Clean and do ETL on data every morning.
 * Start data analysis and data reporting at 2PM.
