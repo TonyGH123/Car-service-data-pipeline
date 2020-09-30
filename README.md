@@ -12,3 +12,8 @@ Use this data pipeline to grab the data from car dealers. Do ELT on this data an
 *	Used Spark to build ETL and to land the data into Amazon Glue table from cluster.
 *	Inserted the data into the Amazon Redshift table from the Glue table, managed ETL service that makes it easy to prepare and load their data for analytics.
 *	Used Amazon Redshift table as Data warehouse, which contain pure data for data analysis and data reporting.
+
+### Scenarios
+* DAG start at 7AM daily.
+* Clean and do ETL on data every morning.
+* Start data analysis and data reporting at 2PM.
